@@ -1,7 +1,7 @@
 {
   "name": "prime-file-icons",
   "main": "index",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add icons for tree view and tabs",
   "repository": {
     "type": "git",
