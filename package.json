@@ -1,0 +1,20 @@
+{
+  "name": "prime-file-icons",
+  "main": "index",
+  "version": "0.1.0",
+  "description": "Add icons for tree view and tabs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leviothan/atom-prime-file-icons"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.181.0"
+  },
+  "dependencies": {},
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/leviothan/atom-prime-file-icons/issues"
+  },
+  "homepage": "https://github.com/leviothan/atom-prime-file-icons"
+}
