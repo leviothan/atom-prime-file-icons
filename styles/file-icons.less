@@ -96,7 +96,10 @@
     &[data-name$=".mkdown"]:before,
     &[data-name$=".rmd"]:before,
     &[data-name$=".ron"]:before,
-    &[data-name$=".md"]:before                  { .markdown-icon; color: @pfi-orange; }
+    &[data-name$=".md"]:not([data-name="README.md"]):before                  { .markdown-icon; color: @pfi-orange; }
+
+    // Readme icon
+    &[data-name="README.md"]:before             { .readme-icon; color: @pfi-orange; }
 
     // Mustache icon
     &[data-name$=".hbs"]:before,
