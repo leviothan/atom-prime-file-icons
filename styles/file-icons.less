@@ -15,7 +15,7 @@
     }
 }
 
-.list-tree .icon, @{pane-tab-selector}, .select-list .icon {
+.list-tree .icon:not(.icon-file-directory), @{pane-tab-selector}, .select-list .icon {
     // Javascript icon
     &[data-name$=".js"]:before                  { .js-icon; color: @pfi-yellow; }
     &[data-name$=".json"]:before                { .json-icon; color: @pfi-cyan; }
